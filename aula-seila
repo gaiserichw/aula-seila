@@ -1,0 +1,69 @@
+//vai ser impresso 5 e 50;
+// o console nao vai imprimir nada;
+//essa função ira deixar todos os textos escritos com as letras minuscula;
+//
+/*
+function texto()
+{console.log ('eu sou gustavo,tenho 15 anos,moro em são leopoldo e sou estudante')};
+texto()
+*/
+/*
+ function exercicio (  nome,  idade, cidade, profissão){
+cidade = cidade.toString();
+nome = nome.toString();
+idade = Number(idade);
+profissão = profissão.toString();
+
+
+return ('eu sou ' + nome + ' tenho ' + idade + ' anos ' + ' moro em ' + cidade + ' e sou ' + profissão);
+ }
+console.log(exercicio('gustavo', 15, 'sao leo', 'estudante'));
+*/
+/*
+function calculo  (numero1, numero2){
+numero1 = Number(numero1);
+numero2 = Number(numero2);
+const resultado = numero1 + numero2;
+
+return resultado;
+}
+const sk = calculo(5, 3);
+console.log('result:', + sk);
+    console.log('result2', + calculo(5, 3));
+ 
+*/
+/*
+    function Teste (a, b ){
+        return (a>=b);
+    }
+    function verificapar(a){
+        return (a % 2 === 0);
+    }
+    function tm9(a){
+        return a.lenght + " " + a.toUpperCase();
+
+    }
+
+   let frase1 = prompt('digite uma frase');
+   console.log(tm9(frase1));
+   */
+  function soma(a,b){
+return a+b;
+  } 
+  function divisão(a,b){
+return a/b 
+  }
+  function multiplicação(a,b){
+   return a*b
+    
+  }
+  function subtração(a,b){
+   return a-b
+  }
+
+  let n = Number (prompt('digite um numero'));
+  let n1 = Number (prompt("digite outro numero"));
+  console.log(soma(n, n1));
+  console.log(divisão(n, n1));
+  console.log(subtração(n, n1));
+  console.log(multiplicação(n, n1));
